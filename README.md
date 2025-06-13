@@ -47,5 +47,5 @@ This is a simple **ToDo List REST API** built using **FastAPI**, **MySQL**, and 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/rohitdayal-jktech/assignment-2-jkIntelliTech.git
-cd assignment-2-jkIntelliTech
+git clone https://github.com/rohitdayal-jktech/Assignment-2-jkIntelliTech.git
+cd Assignment-2-jkIntelliTech
