@@ -14,6 +14,10 @@ This is a simple **ToDo List REST API** built using **FastAPI**, **MySQL**, and 
 │ ├── schemas.py
 │ └── crud.py
 ├── main.py
+├── Dockerfile
+├── docker-compose.yml
+├── .env
+├── .env.example
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -28,6 +32,8 @@ This is a simple **ToDo List REST API** built using **FastAPI**, **MySQL**, and 
 - SQLAlchemy ORM
 - Pydantic models
 - Modular file structure
+- Environment variable support using `.env`
+- Dockerized using Docker and Docker Compose
 
 ---
 
@@ -39,13 +45,20 @@ This is a simple **ToDo List REST API** built using **FastAPI**, **MySQL**, and 
 - SQLAlchemy
 - Pydantic
 - Uvicorn
+- Docker, Docker Compose
+- python-dotenv
 
 ---
 
 ## ⚙️ Setup Instructions
+Dockerized (Recommended)
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/rohitdayal-jktech/Assignment-2-jkIntelliTech.git
 cd Assignment-2-jkIntelliTech
+
+docker-compose up --build
+
+ 
