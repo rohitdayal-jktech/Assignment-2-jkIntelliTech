@@ -4,8 +4,14 @@ from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 from datetime import timedelta
 from . import crud, schemas, database, auth
+import logging
 
 router = APIRouter()
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
 
 @router.get("/")
 def read_root():

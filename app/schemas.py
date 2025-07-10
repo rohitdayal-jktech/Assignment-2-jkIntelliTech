@@ -16,7 +16,7 @@ class ToDoResponse(ToDoBase):
     id: int
 
     class Config:
-        orm_mode = True  # Tells Pydantic to convert SQLAlchemy to Pydantic
+        from_attributes = True  
 
 class UserCreate(BaseModel):
     username: str
